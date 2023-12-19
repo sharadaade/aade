@@ -1,0 +1,30 @@
+{
+  "name": "aade",
+  "displayName": "aade",
+  "description": "This is aade-brand theme",
+  "version": "0.0.1",
+	"publisher":"Sharad Aade",
+  "keywords":[
+    "dark",
+    "vscode"
+  ],
+	"repository":{
+		"type":"git",
+		"url":"https://github.com/sharadaade/aade"
+	},
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "aade",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aade-color-theme.json"
+      }
+    ]
+  }
+}
